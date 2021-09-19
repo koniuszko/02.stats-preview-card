@@ -15,7 +15,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90vw;
-    height: 90vh;
+    height: 800px;
     background-color: hsl(244, 38%, 16%);
     border-radius: 20px;
     overflow: hidden;
@@ -87,8 +87,8 @@ body {
 @media(min-width: 1440px) {
 
     .content {
-        width: 80vw;
-        height: 50vh;
+        width: 1400px;
+        height: 600px;
         background-color: hsl(244, 38%, 16%);
         border-radius: 20px;
         overflow: hidden;
@@ -104,18 +104,28 @@ body {
         background-size: cover;
     }
 
+    .containter {
+        height: 100%;
+        width: 60%;
+        margin: 120px auto 120px;
+        font-family: 'Inter';
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
     .title {
-        font-size: 46px;
+        font-size: 36px;
     }
 
     .text {
-        margin: 30px 50px;
-        font-size: 20px;
+        margin: 40px 50px;
+        font-size: 16px;
         line-height: 28px;
     }
 
     .stats {
-        margin: 50px 120px;
+        margin: 100px 120px;
         flex-grow: 1;
         display: flex;
         flex-direction: row;
@@ -123,11 +133,11 @@ body {
     }
 
     .stat h2 {
-        font-size: 32px;
+        font-size: 26px;
     }
 
     .stat p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
 }
